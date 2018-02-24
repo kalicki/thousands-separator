@@ -28,8 +28,6 @@ separado por vírgula (,). Exemplo: (como é feito em formatação monetária)
 | 123        	| 123           	|
 | 9876543210 	| 9,876,543,210 	|
 
----
-
 ## Bônus de Implementação
 
 Além da solução apresentada, será somado pontos ao candidato que implementar cada uma das melhorias abaixo, em ordem de importância ( mais importante para o menos):
