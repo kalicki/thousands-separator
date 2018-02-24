@@ -17,7 +17,9 @@ que aceita como parâmetro um número inteiro positivo >= 0 em formato decimal o
 com comprimento de zero à 15 caracteres,
 que retorne sempre uma string numérica de acordo com os requisitos abaixo:
 
-Receba um número e retorne-o agrupado a cada 3 dígitos separado por vírgula (,). Exemplo:
+Receba um número e retorne-o como string,
+agrupado a cada 3 dígitos da direita para esquerda,
+separado por vírgula (,). Exemplo: (como é feito em formatação monetária)
 
 | ENTRADA    	| SAÍDA         	|
 |------------	|---------------	|
@@ -35,13 +37,13 @@ Além da solução apresentada, será somado pontos ao candidato que implementar
 - Implementar testes unitários (mais importante de todos)
 - Este problema tem pelo menos 3 soluções, crie uma classe separada para cada uma delas, exemplo: ThousandsSeparatorRegExp
 - Você consegue implementar uma quarta solução além das 3 acima?
-- Resolver nas duas linguages, Ruby e Node.js, separando as duas soluções nas pastas "ruby" e "node" na raiz do repositório.
+- Resolver nas duas linguagens, Ruby e Node.js, separando as duas soluções nas pastas "ruby" e "node" na raiz do repositório.
 - Aceitar qualquer outro valor de entrada - como string vazia, null, undefined, boolean, etc - a função deve retornar a string zero: `"0"`
 - Aceitar número negativo, mantendo o sinal do número, por exemplo, para a entrada -1234, a função deverá retornar a string "-1,234"
 - Aceitar um segundo parâmetro com o caracter para ser utilizado como separador, sendo a vírgula o parâmetro padrão.
 
 ---
 
-**IMPORTANTE: NÃO É PERMITIDO USO DE BIBLIOTECAS EXTERNAS OU FUNÇÕES PRONTAS DE FORMATAÇÃO EXISTENTES NA LINGUAGEM!**
+**IMPORTANTE: NÃO É PERMITIDO O USO DE BIBLIOTECAS EXTERNAS OU FUNÇÕES PRONTAS DE FORMATAÇÃO EXISTENTES NA LINGUAGEM!**
 
-May the force be with you!
+*May the force be with you!*
