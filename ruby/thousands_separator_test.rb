@@ -36,6 +36,10 @@ class ThousandsSeparatorTest < Test::Unit::TestCase
       assert_equal expected, @TS_Regexp.format(value)
     end
   end
+  # TS_Regexp :: TEST WITH OTHER SEPARATOR
+  def test_regexp_number_separator
+    assert_equal '1.234', @TS_Regexp.format(1234, '.')
+  end
 
   # TS_Array :: TEST WITH VALUES POSITIVE
   def test_array_number_positive
