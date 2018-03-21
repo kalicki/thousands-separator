@@ -66,7 +66,7 @@ class ThousandsSeparatorArray < ThousandsSeparator
 end
 
 # Solution 3 ~> Idea by: Cary Swoveland via https://stackoverflow.com/a/26682481
-class ThousandsSeparatorLoop < ThousandsSeparator
+class ThousandsSeparatorLoopString < ThousandsSeparator
   def format(number, separator = ',')
     value = check_number(number)
     if value != true
@@ -125,7 +125,7 @@ class ThousandsSeparatorRecursive < ThousandsSeparator
       return
     end
 
-    # concet arrays
+    # add result in arrays
     number_array << result
 
     # return (convert array to string with concat)

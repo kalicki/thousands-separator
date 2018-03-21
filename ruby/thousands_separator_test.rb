@@ -5,7 +5,7 @@ class ThousandsSeparatorTest < Test::Unit::TestCase
   def setup
     @TS_Regexp = ThousandsSeparatorRegExp.new
     @TS_Array = ThousandsSeparatorArray.new
-    @TS_Loop =ThousandsSeparatorLoop.new
+    @TS_Loop =ThousandsSeparatorLoopString.new
     @TS_Rec = ThousandsSeparatorRecursive.new
 
     @numbers = {
