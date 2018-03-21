@@ -1,3 +1,16 @@
+# Execução
+## Ruby
+`ruby thousands_separator_test.rb`
+
+## JS/Node
+Para instalar jest para testes (*pode usar `npm` se preferir*):
+`yarn`
+
+Executar testes:
+`yarn test`
+
+---
+
 # Desafio para programadores Ruby ou JavaScript
 
 Utilizando Ruby ou Node.Js, faça:
