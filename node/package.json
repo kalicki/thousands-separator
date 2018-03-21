@@ -1,0 +1,13 @@
+{
+  "name": "thousands_separator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Filipe Kalicki",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
